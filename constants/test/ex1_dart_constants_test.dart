@@ -35,13 +35,14 @@ void main() {
     expect(simple5 == simple6, null, reason: '');
     expect(simple1 == simple5, null, reason: '');
 
-    const property = 'Property!';
+    const property = '1';
     const simple7 = Simple.asConstant(property);
     const simple8 = Simple.asConstant(property);
     expect(simple7 == simple8, null, reason: '');
+    expect(simple1 == simple7, null, reason: '');
 
     // ignore: prefer_const_declarations
-    final property2 = 'Property2!';
+    final property2 = '2';
 
     // Question: are simple9 and simple10 constants? Why/Why not?
     // Answer:
