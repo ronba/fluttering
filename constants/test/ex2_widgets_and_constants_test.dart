@@ -20,7 +20,7 @@ import 'package:flutter_test/flutter_test.dart';
 /// 6) Can the number of times `dynamic` widgets are built be reduced?
 /// 7) Can a [StatefulWidget] have a const constructor? Why?
 /// 8) Create a [StatefulWidget] and add it to the list of widgets. Is it
-///    possible to limit the number of builds to 1?
+///    possible to limit the number of the time it is built to 1?
 void main() {
   testWidgets("Widgets and constants", (WidgetTester tester) async {
     // Start by clearing the map in _SimpleWidget tracking our built
