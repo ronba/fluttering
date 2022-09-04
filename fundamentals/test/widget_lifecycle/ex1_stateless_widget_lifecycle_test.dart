@@ -5,7 +5,7 @@ import 'package:flutter_test/flutter_test.dart';
 
 /// Resources:
 /// - https://api.flutter.dev/flutter/widgets/StatelessWidget-class.html
-/// - constants/test/ex2_widgets_and_constants_test.dart
+/// - fundamentals/test/constants/ex2_widgets_and_constants_test.dart
 ///
 /// Goal:
 /// Understand the lifecycle of a [StatelessWidget] by fixing the expect
